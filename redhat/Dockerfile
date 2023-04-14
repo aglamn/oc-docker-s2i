@@ -3,4 +3,5 @@
 FROM registry.access.redhat.com/ubi7:latest
 
 CMD ["/bin/bash", "-c", "sleep infinity"]
-# CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+# aglamn next line uncommented as of PPT slide 36 of the *outdated* IBM training documentation
+CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
